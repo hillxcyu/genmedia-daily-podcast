@@ -1,0 +1,36 @@
+file_type: demo
+type: application
+title: GenMedia Pulse Daily Digest Portal and Two-Host AI Podcast
+thumbnail_summary: Transform daily Markdown research into a zero-database web portal, Podcast 2.0 RSS feed, and two-host Gemini TTS audio briefing with click-to-seek transcripts.
+purpose: |
+  Designed for **Chief Marketing Officers, VP of Content Operations, and Media Engineering Directors**, this interactive application demonstrates how to convert dense daily AI research into an executive-ready multimedia briefing.
+
+  During a live customer pitch, sellers walk buyers through a published daily digest rendered alongside a sticky audio player and a synchronized two-host AI podcast. Viewers click directly on any topic-tagged transcript turn to jump into the exact audio segment, inspect the standards-compliant Podcast 2.0 RSS feed, and review automated pre-publication safety guardrails.
+business_value: |
+  * **Compress Content-to-Audio Production Cycles:** Automates script writing, two-host speech synthesis, and broadcast loudness mastering, shrinking daily briefing production from hours of manual recording to under 2 minutes per episode.
+  * **Increase Executive Engagement & Reach:** Delivers both a mobile-responsive editorial web portal and an Apple Podcasts RSS feed, letting busy leaders either scan structured summary tables or listen on the go with click-to-seek navigation.
+  * **Eliminate Database & Idle Infrastructure Overhead:** Runs completely statelessly on Cloud Run and Cloud Storage, removing database provisioning, maintenance, and idle compute costs while scaling automatically to demand.
+technical_value: |
+  * **Multi-Model Creative Pipeline on Vertex AI:** Pairs Gemini structured outputs for two-host dialogue scripting with concurrent Gemini 3.8 Flash TTS audio synthesis, custom pronunciation normalization, and Nano Banana 2.1 cover artwork generation under one unified enterprise security boundary.
+  * **Zero-Database Byte-Range Streaming Architecture:** Streams mastered MP3 audio directly from private Cloud Storage buckets using RFC 9110 partial-content byte-range requests with TTL-cached manifests for sub-second seek latency.
+  * **Enterprise Security & Supply-Chain Compliance:** Deploys Cloud Run with load-balancer-only ingress behind an External HTTPS Application Load Balancer, Serverless NEG, and Identity-Aware Proxy, using least-privilege IAM and hash-pinned Python dependencies.
+owner: xcyu
+team_owner: 1670033130013
+demo_guide: https://docs.google.com/document/d/16bBXWLUGKNVQOfue1bWH5S_zQrCFg1H8wqkzAIHOw0I/edit
+products:
+  - vertex_ai
+  - cloud_run
+  - cloud_storage
+  - text_to_speech
+industries:
+  - media_entertainment
+artifacts:
+  - title: GitHub Source Repository
+
+    type: code_repo
+
+    link: https://github.com/hillxcyu/genmedia-daily-podcast
+featured_artifact_title: GitHub Source Repository
+# images:
+#   - https://storage.cloud.google.com/<bucket>/hero-card.png
+# click_to_deploy_path: <demo-id>-genmedia-daily-podcast/tree/main/click-to-deploy

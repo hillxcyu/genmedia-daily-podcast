@@ -1,0 +1,14 @@
+.venv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+episodes_local/
+publisher/
+PLAN.md
+DEFINE.md
+ACTION.md
+*.mp3
+*.wav
+.git/

@@ -1,0 +1,10 @@
+{
+  "constraints/compute.requireOsLogin": true,
+  "constraints/compute.requireShieldedVm": true,
+  "constraints/compute.vmExternalIpAccess": true,
+  "constraints/iam.allowedPolicyMemberDomains": true,
+  "constraints/iam.disableServiceAccountKeyCreation": true,
+  "constraints/run.allowedIngress": true,
+  "constraints/storage.uniformBucketLevelAccess": true,
+  "constraints/storage.publicAccessPrevention": true
+}

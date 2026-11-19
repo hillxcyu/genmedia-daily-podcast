@@ -1,0 +1,12 @@
+services:
+  portal:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT:-your-gcp-project-id}
+      - GOOGLE_CLOUD_LOCATION=${GOOGLE_CLOUD_LOCATION:-global}
+      - GCS_BUCKET=${GCS_BUCKET:-your-gcs-bucket-name}
+      - GOOGLE_APPLICATION_CREDENTIALS=/adc/application_default_credentials.json
+    volumes:
+      - ~/.config/gcloud/application_default_credentials.json:/adc/application_default_credentials.json:ro

@@ -1,0 +1,24 @@
+{
+  "podcast_title": "GenMedia Pulse — Daily AI Media Models Briefing",
+  "podcast_subtitle": "Daily 5-minute two-host briefing on generative video, world simulation, image synthesis, and audio AI models.",
+  "updated_at": "2026-11-09T14:05:06+00:00",
+  "episodes": [
+    {
+      "date": "2026-11-09",
+      "title": "Stateful Sessions and the Rise of Interactive World Models",
+      "summary": "Alex and Maya discuss Google's Gemini Omni 1.2 Flash GA, OpenAI's bifurcated image strategy, and why stateful multimodal sessions are the new frontier for creative developers.",
+      "published_at": "2026-11-09T14:05:06+00:00",
+      "duration_sec": 332.25,
+      "duration_label": "05:32",
+      "audio_bytes": 5316067,
+      "word_count": 860,
+      "turn_count": 17,
+      "tags": [
+        "Video AI",
+        "Image AI",
+        "Audio AI",
+        "World Models"
+      ]
+    }
+  ]
+}
